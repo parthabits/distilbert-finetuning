@@ -9,7 +9,11 @@ By using the accelerate library, we optimize training via mixed precision, ensur
 ## Dependencies
 The following Python packages are required for running the project:
 
-pip install transformers datasets evaluate accelerate peft
+transformers 
+datasets 
+evaluate 
+accelerate 
+peft
 
 ## Dataset
 We are using the IMDb dataset from Hugging Face's datasets library. This dataset contains 25,000 training and 25,000 test samples of movie reviews with binary sentiment labels (positive/negative).
